@@ -1,4 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: "EB Garamond", serif;
-  background-color: #ccc;
+  padding: 170px 0;
+  text-align: left;
+  background: #fff;
+}
+
+@media (min-width: 767px) {
+  body {
+    padding-right: 220px;
+  }
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: rgb(92, 92, 92);
+}
+
+a {
+  color: inherit;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover,
+a:focus {
+  color: rgba(26, 188, 156, 1);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: normal;
+  color: black;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+code {
+  font-family: "Inconsolata", "Courier New", sans-serif;
+  font-size: 22px;
+  color: rgba(26, 188, 156, 1);
+  background-color: #f2f9f7;
+}
+
+pre {
+  font-family: "Inconsolata", "Courier New", sans-serif;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  padding: 30px 0;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 40px 0;
+  border: 1px solid rgb(143, 143, 143);
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 18px;
+  color: rgb(143, 143, 143);
+}
+
+blockquote a {
+  color: black;
+}
+
+.btn-default {
+  border: 2px solid rgba(26, 188, 156, 1);
+  color: rgba(26, 188, 156, 1);
+  background-color: transparent;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 7px;
+}
+.btn-default:hover,
+.btn-default:focus {
+  border: 2px solid rgba(26, 188, 156, 1);
+  outline: 0;
+  color: white;
+  background-color: rgba(26, 188, 156, 1);
+}
+
+h1 {
+  font-size: 6em;
+  font-weight: 100;
+  margin: 0px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin: 45px 0 15px;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 45px 0 15px;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.8em;
+  text-align: justify;
+  text-justify: distribute;
+  color: rgb(92, 92, 92);
+  margin: 0 0 20px;
+}
+
+p.jumbo {
+  font-size: 2.4em;
+  font-style: italic;
+  line-height: 1.3em;
+  text-align: left;
+  padding-right: 10%;
+  padding-top: 4em;
+  padding-bottom: 0.6em;
+  color: rgba(26, 188, 156, 1);
+}
+
+p a {
+  color: black;
+}
+
+p span.entry {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 0.07em;
+}
+
+a:hover,
+.resume-col a:focus {
+  color: rgba(26, 188, 156, 1);
+  text-decoration: none;
+}
+
+.author .followme {
+  color: #aaa;
+  background-image: url(bird_gray_16.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 18px; /* Or size of icon + spacing */
+  margin-left: 15px;
+}
+
+figure {
+  margin: 30px 0;
+}
+
+figure img {
+  border: 1px solid #ddd;
+  padding: 7px;
+}
+
+figure img.mainfig {
+  max-width: 100%;
+}
+
+figure svg {
+  border: 1px solid #ddd;
+}
+
+figcaption {
+  margin-top: 10px;
+  color: gray;
 }
